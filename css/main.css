@@ -1218,11 +1218,24 @@ footer .container .nav {
 
 /* Media */
 
+@media (max-width: 1470px) {
+    
+    .black-background {
+        width: fit-content;
+    }
+
+}
+
 @media (max-width: 768px) {
 
     html,
     body {
         overflow-x: hidden;
+    }
+
+    
+    .black-background {
+        width: unset;
     }
 
     /* Header */
